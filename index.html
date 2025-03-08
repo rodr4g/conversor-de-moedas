@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Conversor de Moedas</title>
+</head>
+<body style="background-image: url('https://cdn.pixabay.com/photo/2012/12/14/11/36/fractal-69974_1280.jpg');">
+  <div class="container">
+    <h1>Conversor de Moedas</h1>
+    <div class="converter">
+      <div class="moeda">
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" placeholder="Insira o valor">
+      </div>
+
+      <div class="moeda">
+        <label for="moedaOrigem">Moeda de Origem:</label>
+        <select id="moedaOrigem">
+          <option value="USD">Dólar Americano (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="GBP">Libra Esterlina (GBP)</option>
+          <option value="BTC">Bitcoin (BTC)</option>
+          <option value="BRL">Real Brasileiro (BRL)</option>
+        </select>
+      </div>
+
+      <div class="moeda">
+        <label for="moedaDestino">Moeda de Destino:</label>
+        <select id="moedaDestino">
+          <option value="BRL">Real Brasileiro (BRL)</option>
+          <option value="USD">Dólar Americano (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="GBP">Libra Esterlina (GBP)</option>
+          <option value="BTC">Bitcoin (BTC)</option>
+        </select>
+      </div>
+
+      <button onclick="buscarCotacao()">Converter</button>
+      <div id="resultado">R$ 0.00</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
