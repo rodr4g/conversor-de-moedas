@@ -2,11 +2,15 @@
 
 Um conversor de moedas simples que utiliza uma API para buscar cotações em tempo real. Desenvolvido com HTML, CSS e JavaScript.
 
+---
+
 ## 💡Funcionalidades
 
 - **Conversão em tempo real**: Busca a cotação atual das moedas utilizando a API [ExchangeRate-API](https://www.exchangerate-api.com/).
 - **Diversas moedas suportadas**: Dólar Americano (USD), Euro (EUR), Libra Esterlina (GBP), Bitcoin (BTC) e Real Brasileiro (BRL).
 - **Interface simples e intuitiva**: Fácil de usar, com campos para inserir o valor e selecionar as moedas de origem e destino.
+
+---
 
 ## 👉Como Usar
 
@@ -14,9 +18,13 @@ Um conversor de moedas simples que utiliza uma API para buscar cotações em tem
 2. Escolha a moeda de origem e a moeda de destino nos seletores disponíveis.
 3. Clique em "Converter" e o valor convertido será exibido abaixo do botão.
 
+---
+
 ### 💻Preview
 
 [![CodePen](https://img.shields.io/badge/CodePen-white?style=for-the-badge&logo=codepen&logoColor=black)](https://codepen.io/rodr4g/full/eYxGVyP)
+
+---
 
 ### ⚙️Tecnologias
 
