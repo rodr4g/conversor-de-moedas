@@ -7,8 +7,7 @@ function buscarCotacao() {
       alert("Por favor, insira um valor válido.");
       return;
     }
-  
-    // Substitua SUA_CHAVE_API pela chave que você obteve no site da ExchangeRate-API
+    
     const apiKey = "85784a02c633203b6443be9b";
     const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${moedaOrigem}`;
   
